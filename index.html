@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infinity Style - Peluquería unisex y barbería a domicilio. Reservá tu turno por WhatsApp.">
+  <title>Infinity Style | Peluquería y barbería a domicilio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Infinity Style, inicio">
+      <span class="brand-mark">IS</span>
+      <span class="brand-name">INFINITY <b>STYLE</b><small>PELUQUERÍA UNISEX · BARBERÍA</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Cómo trabajo</a>
+      <a href="#reservar">Reservar turno</a>
+      <a class="nav-cta" href="#reservar">Agendar ahora</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> TU ESTILO, SIN LÍMITES</p>
+        <h1>Tu mejor estilo,<br><em>hasta tu puerta.</em></h1>
+        <p class="hero-copy">Peluquería unisex y barbería a domicilio. Atención personalizada, comodidad y un estilo pensado para vos.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#reservar">Reservar mi turno <span>↗</span></a>
+          <a class="button button-ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Servicio exclusivamente a domicilio</div>
+      </div>
+      <div class="hero-art" aria-label="Identidad visual Infinity Style">
+        <div class="art-ring"></div>
+        <div class="art-infinity">∞</div>
+        <div class="art-initials">IS</div>
+        <div class="art-rule"></div>
+        <div class="art-label">INFINITY STYLE</div>
+        <div class="art-sub">PELUQUERÍA UNISEX · BARBERÍA</div>
+        <div class="art-slogan">Cuidamos tu estilo</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>01</strong><span>Atención personalizada</span></div>
+      <div><strong>02</strong><span>Comodidad en tu hogar</span></div>
+      <div><strong>03</strong><span>Turnos coordinados</span></div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="section-heading">
+        <p class="eyebrow">LO QUE HAGO</p>
+        <h2>Servicios para <em>tu estilo.</em></h2>
+        <p>Elegí el servicio que necesitás y coordinamos el turno para atenderte en tu domicilio.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">✂</div><span class="service-number">01 / PELO</span>
+          <h3>Tratamiento capilar</h3><p>Cuida tu pelo como te lo mereces</p>
+          <span class="service-price">Consultar precio</span>
+        </article>
+        <article class="service-card featured">
+          <div class="service-icon">〰</div><span class="service-number">02 / BARBERÍA</span>
+          <h3>Corte masculino</h3><p>Degradados, clásicos y estilos actuales.</p>
+          <span class="service-price">Consultar precio</span>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">⌁</div><span class="service-number">03 / DETALLES</span>
+          <h3>Perfilado de barba</h3><p>Definición y prolijidad para completar tu look.</p>
+          <span class="service-price">Consultar precio</span>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">✧</div><span class="service-number">04 / PEINADO</span>
+          <h3>Peinados</h3><p>Terminaciones y peinados para distintas ocasiones.</p>
+          <span class="service-price">Consultar precio</span>
+        </article>
+      </div>
+      <p class="service-disclaimer">Los servicios y precios se pueden modificar según tu lista de servicios. Consultá disponibilidad y costo por WhatsApp.</p>
+    </section>
+
+    <section class="home-service" id="nosotros">
+      <div class="home-service-mark">∞</div>
+      <div>
+        <p class="eyebrow">TU CASA, TU ESPACIO</p>
+        <h2>La barbería<br><em>va hacia vos.</em></h2>
+        <p>No necesitás trasladarte ni esperar en un local. Trabajo únicamente a domicilio: coordinamos día, horario y dirección para brindarte una atención cómoda y personalizada.</p>
+        <a class="text-link" href="#reservar">Coordiná tu visita <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section booking" id="reservar">
+      <div class="booking-intro">
+        <p class="eyebrow">RESERVÁ EN UNOS PASOS</p>
+        <h2>Tu próximo turno<br><em>empieza acá.</em></h2>
+        <p>Completá tus datos y se abrirá WhatsApp con tu solicitud lista para enviar. El turno queda confirmado cuando coordinemos la disponibilidad.</p>
+        <div class="booking-reminder"><span>✦</span><div><b>Importante</b><br>Atención solamente a domicilio. Indicá tu dirección para coordinar la visita.</div></div>
+      </div>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-title"><span>INFINITY STYLE</span><small>SOLICITUD DE TURNO</small></div>
+        <label for="clientName">Nombre y apellido</label>
+        <input id="clientName" name="name" type="text" placeholder="¿Cómo te llamás?" required>
+        <div class="form-row">
+          <div><label for="service">Servicio</label>
+            <select id="service" name="service" required>
+              <option value="">Seleccioná un servicio</option>
+              <option>Corte unisex</option><option>Corte masculino</option>
+              <option>Perfilado de barba</option><option>Peinados</option><option>Otro / Consultar</option>
+            </select>
+          </div>
+          <div><label for="date">Fecha preferida</label><input id="date" name="date" type="date" required></div>
+        </div>
+        <div class="form-row">
+          <div><label for="time">Horario preferido</label><input id="time" name="time" type="time" required></div>
+          <div><label for="phone">Tu teléfono</label><input id="phone" name="phone" type="tel" placeholder="Tu número" required></div>
+        </div>
+        <label for="address">Dirección del domicilio</label>
+        <input id="address" name="address" type="text" placeholder="Calle, número, localidad" required>
+        <label for="details">¿Algún detalle? <span>(opcional)</span></label>
+        <textarea id="details" name="details" rows="3" placeholder="Contame qué necesitás..."></textarea>
+        <button class="button button-primary submit-button" type="submit">Enviar solicitud por WhatsApp <span>↗</span></button>
+        <small class="form-footnote">Al enviar, se abrirá WhatsApp para que puedas confirmar el mensaje.</small>
+        <p class="form-error" id="formError" role="alert"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">IS</span><span class="brand-name">INFINITY <b>STYLE</b><small>PELUQUERÍA UNISEX · BARBERÍA</small></span></a>
+    <p>Tu estilo, sin límites. <span>Atención exclusivamente a domicilio.</span></p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Infinity Style</span><a href="#inicio">Volver arriba ↑</a></div>
+  </footer>
+
+  <a class="whatsapp-float" id="whatsappLink" href="#" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <span class="wa-icon">◉</span><span>WhatsApp</span>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
